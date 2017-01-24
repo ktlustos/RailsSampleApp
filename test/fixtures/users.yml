@@ -3,3 +3,8 @@ kent:
   name: Kent Tlustos
   email: ktlustos@sample.com
   password_digest: <%= User.digest('password') %>
+
+dave:
+  name: Dave Ewaliko
+  email: dave@dave.dave
+  password_digest: <%= User.digest('password') %>
