@@ -3,8 +3,12 @@ kent:
   name: Kent Tlustos
   email: ktlustos@sample.com
   password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
 
 dave:
   name: Dave Ewaliko
   email: dave@dave.dave
   password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
